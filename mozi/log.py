@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import sys
 import logging
-import cPickle
+import _pickle as cPickle
 import sqlite3
 import operator
 import copy
